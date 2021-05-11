@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>StarWarsTroopers</name>
+    </assembly>
+    <members>
+        <member name="T:StarWarsTroopers.Model.Trooper">
+            <summary>
+            Trooper data record
+            </summary>
+        </member>
+        <member name="P:StarWarsTroopers.Model.Trooper.id">
+            <summary>
+            Unique ID
+            </summary>
+        </member>
+        <member name="P:StarWarsTroopers.Model.Trooper.name">
+            <summary>
+            Trooper's name
+            </summary>
+        </member>
+        <member name="P:StarWarsTroopers.Model.Trooper.height">
+            <summary>
+            Trooper's height
+            </summary>
+        </member>
+        <member name="P:StarWarsTroopers.Model.Trooper.homeworld">
+            <summary>
+            Trooper's homeworld
+            </summary>
+        </member>
+        <member name="P:StarWarsTroopers.Model.Trooper.gender">
+            <summary>
+            Trooper's gender, if has. 
+            </summary>
+        </member>
+        <member name="P:StarWarsTroopers.Model.Trooper.specie">
+            <summary>
+            Trooper's specie
+            </summary>
+        </member>
+        <member name="P:StarWarsTroopers.Model.Trooper.created">
+            <summary>
+            Trooper's creation date
+            </summary>
+        </member>
+        <member name="P:StarWarsTroopers.Model.Trooper.edited">
+            <summary>
+            Trooper's edited date
+            </summary>
+        </member>
+        <member name="T:StarWarsTroopers.Model.TrooperCon">
+            <summary>
+            Information from trooper's homeworld
+            </summary>
+        </member>
+        <member name="P:StarWarsTroopers.Model.TrooperCon.count">
+            <summary>
+            Total troopers connected
+            </summary>
+        </member>
+        <member name="P:StarWarsTroopers.Model.TrooperCon.next">
+            <summary>
+            Next homeworld
+            </summary>
+        </member>
+        <member name="P:StarWarsTroopers.Model.TrooperCon.previous">
+            <summary>
+            Previous homeworld
+            </summary>
+        </member>
+        <member name="P:StarWarsTroopers.Model.TrooperCon.results">
+            <summary>
+            Trooper's connected names
+            </summary>
+        </member>
+    </members>
+</doc>
